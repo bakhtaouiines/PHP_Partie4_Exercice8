@@ -1,5 +1,7 @@
 <?php
-    function numbers($a = 25, $b = 78, $c = 2) : int {
+    declare(strict_types = 1);
+    function numbers(int $a = 25, int $b = 78, int $c = 2) : int 
+    {
         return $a + $b + $c;
     }
 ?>
