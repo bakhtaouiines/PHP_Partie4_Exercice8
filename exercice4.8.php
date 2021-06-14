@@ -1,5 +1,12 @@
 <?php
     declare(strict_types = 1);
+    /**
+     * fonction qui permet d'additionner 3 nombres
+     * @param int $a
+     * @param int $b
+     * @param int $c
+     * @return int
+     */
     function numbers(int $a = 25, int $b = 78, int $c = 2) : int 
     {
         return $a + $b + $c;
